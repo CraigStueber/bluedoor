@@ -1,0 +1,285 @@
+/* font-family: 'Alice', serif;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Marcellus', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nothing You Could Do', cursive; */
+/* Vars */
+:root {
+  --green: #c6fad2;
+  --paleTan: #f6ffee;
+  --purple: #dd9bcf;
+  --orange: #f48882;
+  --darkTan: #fad2cc;
+  --lightBlue: rgb(153, 204, 204);
+  --tealishBlue: #66cccc;
+}
+/* End Vars */
+
+/* Global */
+#PageHead {
+  color: var(--orange);
+}
+body {
+  background-color: var(--paleTan);
+  font-family: 'Marcellus', serif;
+}
+.cmSmallHeader {
+  color: darkblue;
+  font-family: 'Merienda', cursive;
+  font-size: 1.6rem;
+}
+h1 {
+  color: darkblue;
+  font-family: 'Merienda', cursive;
+  font-size: 4rem;
+}
+h2 {
+  color: darkblue;
+  font-family: 'Merienda', cursive;
+  font-size: 2.5rem;
+}
+h3 {
+  color: darkblue;
+  font-family: 'Merienda', cursive;
+}
+h4 {
+  color: darkblue;
+  font-family: 'Merienda', cursive;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.header {
+  display: inline-block;
+}
+/* End Global */
+
+/* Nav Styles */
+
+/* End Nav Styles */
+
+/* Landing Page */
+#myVideo {
+  position: fixed;
+  right: 0;
+  top: -40px;
+  min-width: 100vw;
+  min-height: 100vh;
+  max-height: 130vh;
+}
+.Yo {
+  display: block;
+  position: relative;
+  z-index: 9;
+}
+img {
+  max-width: 100%;
+}
+.headerIndex {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+  color: var(--lightBlue);
+  text-shadow: 2px 2px black;
+  font-family: 'Merienda', cursive;
+}
+.textBDAG {
+  margin-top: 30vh;
+  font-size: 5vw;
+  text-align: center;
+  font-weight: 700;
+  color: var(--lightBlue);
+  text-shadow: 2px 2px black;
+  font-family: 'Merienda', cursive;
+}
+.quoteIndex {
+  float: right;
+  margin: 2rem 3rem 0 0;
+  font-size: 2rem;
+  text-shadow: 2px 2px black;
+  color: var(--lightBlue);
+}
+.RWEIndex {
+  float: right;
+  margin: 0 3rem 2rem 0;
+  font-size: 1.3rem;
+  text-shadow: 2px 2px black;
+  color: var(--lightBlue);
+}
+.quoteIndex:hover {
+  color: var(--lightBlue);
+}
+.RWEIndex:hover {
+  color: var(--lightBlue);
+}
+a {
+  text-decoration: none;
+  color: var(--lightBlue);
+}
+
+.door {
+  display: block;
+  height: 90vh;
+  margin: 0 auto 0;
+}
+/*End Landing Page */
+/* Buttons */
+.btn-blue {
+  border: 1px black solid;
+  background-color: #66cccc;
+}
+.btn-blue:hover {
+  background-color: white;
+}
+/* Buttons End */
+/* Nav Bar */
+.NavBar {
+  height: 60px;
+  background-color: #66cccc;
+  border: 1px black solid;
+  position: fixed;
+  top: 0;
+}
+.NavLink {
+  color: black;
+  padding: 20px;
+}
+.NavLink:hover {
+  color: white;
+}
+.NavDoor {
+  height: 100px;
+  margin-top: -15px;
+}
+.NavDoor:hover {
+  height: 120px;
+}
+.NavLeft {
+  text-align: right;
+}
+/* End */
+/* Footer */
+.Footer {
+  background-color: var(--tealishBlue);
+  padding-top: 20px;
+  border-top: 1px black solid;
+}
+.pp {
+  text-align: right;
+  color: var(--darkTan);
+}
+.pp:hover {
+  color: black;
+}
+.facebookIconFooter {
+  height: 90px;
+  margin: -20px 0px 0px;
+}
+.facebookIconFooter:hover {
+  height: 100px;
+}
+/* End */
+/* Hero Banner */
+.Hero {
+  background-color: var(--lightBlue);
+  background-image: url('assets/heroBanner.jpg');
+  height: 500px;
+
+  width: auto;
+  margin-left: -20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.headline {
+  margin-top: 100px;
+  font-family: 'Merienda', cursive;
+  font-size: 4rem;
+}
+.buttonBanner {
+  margin: 0 100px;
+}
+/* End */
+/* Gallery Page */
+.paintingButton {
+  width: 90%;
+  display: block;
+  margin: 0 auto 0;
+}
+.modalImg {
+  max-width: 100%;
+  max-height: 50vh;
+}
+.paintingButton:hover {
+  cursor: pointer;
+  width: 91%;
+}
+.GalleryHeader {
+  color: darkblue;
+  font-family: 'Merienda', cursive;
+  font-size: 4rem;
+}
+.sold {
+  color: darkred;
+  font-weight: 600;
+  text-align: center;
+}
+.JellyFish {
+  height: 60vh;
+  width: auto;
+  display: block;
+  margin: 0 auto 0;
+}
+.JellyFish:hover {
+  cursor: pointer;
+  height: 61vh;
+}
+/* End Gallery Page */
+/* Custom Memories */
+.cmIdeaDiv {
+  border-bottom: 2px solid var(--orange);
+}
+/* End Custom Memories */
+/* About Me */
+.textAM {
+  padding: 4rem;
+  font-size: 1.4rem;
+}
+.imgDiv {
+  float: left;
+  padding: 2rem;
+  width: 30%;
+}
+.meAtZoo {
+  width: 50%;
+}
+.aboutMeHeader {
+  color: var(--orange);
+  font-family: 'Merienda', cursive;
+  font-size: 4rem;
+}
+.quoteBox {
+  width: 40%;
+  border: 2px solid black;
+  display: block;
+  margin: 1rem auto 2rem;
+}
+.quote {
+  font-size: 1.4rem;
+}
+.nameQuote {
+  color: black;
+  float: right;
+}
+
+/* End About Me */
+
+/* Contact Us */
+
+/* End Contact Us */
+
+/* Thank You */
+
+/* End Thank you */

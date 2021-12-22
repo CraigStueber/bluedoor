@@ -1,0 +1,53 @@
+:root {
+  --green: #c6fad2;
+  --paleTan: #f6ffee;
+  --purple: #dd9bcf;
+  --orange: #f48882;
+  --darkTan: #fad2cc;
+  --lightBlue: rgb(153, 204, 204);
+  --tealishBlue: #66cccc;
+}
+
+.FeaturedPainting {
+  border-bottom: solid black 5px;
+  border-top: solid black 5px;
+  margin: 10px auto 10px;
+  height: 500px;
+  padding: 20px;
+}
+
+.FeaturedTextBlock {
+  padding-top: 100px;
+}
+
+.FeaturedImg {
+  height: 450px;
+}
+
+.Divider {
+  background-image: url('/assets/banner.jpg');
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 50px 0 20px;
+  padding: 20px;
+}
+.facebookIcon {
+  height: 90px;
+}
+.facebookIcon:hover {
+  height: 100px;
+}
+.FacebookDiv {
+  background-color: rgba(200, 200, 200, 0.6);
+  width: 40%;
+  padding: 20px;
+  margin: 30px auto 30px;
+}
+.FacebookDiv:hover {
+  padding: 30px;
+}
+.EcomDiv {
+  background-color: var(--darkTan);
+}

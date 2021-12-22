@@ -1,0 +1,88 @@
+:root {
+  --green: #c6fad2;
+  --paleTan: #f6ffee;
+  --purple: #dd9bcf;
+  --orange: #f48882;
+  --darkTan: #fad2cc;
+  --lightBlue: rgb(153, 204, 204);
+}
+
+/*Header*/
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: black; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--lightBlue);
+  display: block;
+  transition: 0.3s;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #45a29e;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  z-index: 1;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+  height: 100vh;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.menu {
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  font-family: 'Nothing You Could Do', cursive;
+}
+#button {
+  border: none;
+  background-color: transparent;
+  width: 10vw;
+  color: black;
+}
+#button:hover {
+  color: var(--lightBlue);
+}
+#Active {
+  color: var(--orange);
+}
+#navDoor {
+  height: 20vh;
+}
