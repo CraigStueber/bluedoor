@@ -1,0 +1,16 @@
+:root {
+    --green: #c6fad2;
+    --paleTan: #f6ffee;
+    --purple: #dd9bcf;
+    --orange: #f48882;
+    --darkTan: #fad2cc;
+    --lightBlue: rgb(153, 204, 204);
+    --tealishBlue: #66cccc;
+  }
+
+.HeaderDiv{
+    border-bottom: 10px darkblue solid;
+   
+    width: 80%;
+    margin: 0 auto 0;
+}

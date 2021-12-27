@@ -3,383 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <style type="text/css">
-            p{
-                margin:10px 0;
-                padding:0;
-            }
-            table{
-                border-collapse:collapse;
-            }
-            h1,h2,h3,h4,h5,h6{
-                display:block;
-                margin:0;
-                padding:0;
-            }
-            img,a img{
-                border:0;
-                height:auto;
-                outline:none;
-                text-decoration:none;
-            }
-            body,#bodyTable,#bodyCell{
-                height:100%;
-                margin:0;
-                padding:0;
-                width:100%;
-            }
-            .mcnPreviewText{
-                display:none !important;
-            }
-            #outlook a{
-                padding:0;
-            }
-            img{
-                -ms-interpolation-mode:bicubic;
-            }
-            table{
-                mso-table-lspace:0pt;
-                mso-table-rspace:0pt;
-            }
-            .ReadMsgBody{
-                width:100%;
-            }
-            .ExternalClass{
-                width:100%;
-            }
-            p,a,li,td,blockquote{
-                mso-line-height-rule:exactly;
-            }
-            a[href^=tel],a[href^=sms]{
-                color:inherit;
-                cursor:default;
-                text-decoration:none;
-            }
-            p,a,li,td,body,table,blockquote{
-                -ms-text-size-adjust:100%;
-                -webkit-text-size-adjust:100%;
-            }
-            .ExternalClass,.ExternalClass p,.ExternalClass td,.ExternalClass div,.ExternalClass span,.ExternalClass font{
-                line-height:100%;
-            }
-            a[x-apple-data-detectors]{
-                color:inherit !important;
-                text-decoration:none !important;
-                font-size:inherit !important;
-                font-family:inherit !important;
-                font-weight:inherit !important;
-                line-height:inherit !important;
-            }
-            #bodyCell{
-                padding:10px;
-            }
-            .templateContainer{
-                max-width:600px !important;
-            }
-            a.mcnButton{
-                display:block;
-            }
-            .mcnImage,.mcnRetinaImage{
-                vertical-align:bottom;
-            }
-            .mcnTextContent{
-                word-break:break-word;
-            }
-            .mcnTextContent img{
-                height:auto !important;
-            }
-            .mcnDividerBlock{
-                table-layout:fixed !important;
-            }
-            body,#bodyTable{
-                background-color:#ffffff;
-            }
-            #bodyCell{
-                border-top:0;
-            }
-            .templateContainer{
-                border:0;
-            }
-            h1{
-                color:#202020;
-                font-family:Helvetica;
-                font-size:26px;
-                font-style:normal;
-                font-weight:bold;
-                line-height:125%;
-                letter-spacing:normal;
-                text-align:left;
-            }
-            h2{
-                color:#202020;
-                font-family:Helvetica;
-                font-size:22px;
-                font-style:normal;
-                font-weight:bold;
-                line-height:125%;
-                letter-spacing:normal;
-                text-align:left;
-            }
-            h3{
-                color:#202020;
-                font-family:Helvetica;
-                font-size:20px;
-                font-style:normal;
-                font-weight:bold;
-                line-height:125%;
-                letter-spacing:normal;
-                text-align:left;
-            }
-            h4{
-                color:#202020;
-                font-family:Helvetica;
-                font-size:18px;
-                font-style:normal;
-                font-weight:bold;
-                line-height:125%;
-                letter-spacing:normal;
-                text-align:left;
-            }
-            #templatePreheader{
-                background-color:#fafafa;
-                background-image:none;
-                background-repeat:no-repeat;
-                background-position:center;
-                background-size:cover;
-                border-top:0;
-                border-bottom:0;
-                padding-top:9px;
-                padding-bottom:9px;
-            }
-            #templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
-                color:#656565;
-                font-family:Helvetica;
-                font-size:12px;
-                line-height:150%;
-                text-align:left;
-            }
-            #templatePreheader .mcnTextContent a,#templatePreheader .mcnTextContent p a{
-                color:#656565;
-                font-weight:normal;
-                text-decoration:underline;
-            }
-            #templateHeader{
-                background-color:#4caad8;
-                background-image:none;
-                background-repeat:no-repeat;
-                background-position:center;
-                background-size:cover;
-                border-top:0;
-                border-bottom:0;
-                padding-top:9px;
-                padding-bottom:0;
-            }
-            #templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
-                color:#202020;
-                font-family:Helvetica;
-                font-size:16px;
-                line-height:150%;
-                text-align:left;
-            }
-            #templateHeader .mcnTextContent a,#templateHeader .mcnTextContent p a{
-                color:#007C89;
-                font-weight:normal;
-                text-decoration:underline;
-            }
-            #templateBody{
-                background-color:#ffffff;
-                background-image:none;
-                background-repeat:no-repeat;
-                background-position:center;
-                background-size:cover;
-                border-top:0;
-                border-bottom:2px solid #EAEAEA;
-                padding-top:0;
-                padding-bottom:9px;
-            }
-            #templateBody .mcnTextContent,#templateBody .mcnTextContent p{
-                color:#202020;
-                font-family:Helvetica;
-                font-size:16px;
-                line-height:150%;
-                text-align:left;
-            }
-            #templateBody .mcnTextContent a,#templateBody .mcnTextContent p a{
-                color:#007C89;
-                font-weight:normal;
-                text-decoration:underline;
-            }
-            #templateFooter{
-                background-color:#929799;
-                background-image:none;
-                background-repeat:no-repeat;
-                background-position:center;
-                background-size:cover;
-                border-top:0;
-                border-bottom:0;
-                padding-top:9px;
-                padding-bottom:9px;
-            }
-            #templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
-                color:#656565;
-                font-family:Helvetica;
-                font-size:12px;
-                line-height:150%;
-                text-align:center;
-            }
-            #templateFooter .mcnTextContent a,#templateFooter .mcnTextContent p a{
-                color:#656565;
-                font-weight:normal;
-                text-decoration:underline;
-            }
-        @media only screen and (min-width:768px){
-            .templateContainer{
-                width:600px !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            body,table,td,p,a,li,blockquote{
-                -webkit-text-size-adjust:none !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            body{
-                width:100% !important;
-                min-width:100% !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            .mcnRetinaImage{
-                max-width:100% !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            .mcnImage{
-                width:100% !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            .mcnCartContainer,.mcnCaptionTopContent,.mcnRecContentContainer,.mcnCaptionBottomContent,.mcnTextContentContainer,.mcnBoxedTextContentContainer,.mcnImageGroupContentContainer,.mcnCaptionLeftTextContentContainer,.mcnCaptionRightTextContentContainer,.mcnCaptionLeftImageContentContainer,.mcnCaptionRightImageContentContainer,.mcnImageCardLeftTextContentContainer,.mcnImageCardRightTextContentContainer,.mcnImageCardLeftImageContentContainer,.mcnImageCardRightImageContentContainer{
-                max-width:100% !important;
-                width:100% !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            .mcnBoxedTextContentContainer{
-                min-width:100% !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            .mcnImageGroupContent{
-                padding:9px !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            .mcnCaptionLeftContentOuter .mcnTextContent,.mcnCaptionRightContentOuter .mcnTextContent{
-                padding-top:9px !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            .mcnImageCardTopImageContent,.mcnCaptionBottomContent:last-child .mcnCaptionBottomImageContent,.mcnCaptionBlockInner .mcnCaptionTopContent:last-child .mcnTextContent{
-                padding-top:18px !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            .mcnImageCardBottomImageContent{
-                padding-bottom:9px !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            .mcnImageGroupBlockInner{
-                padding-top:0 !important;
-                padding-bottom:0 !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            .mcnImageGroupBlockOuter{
-                padding-top:9px !important;
-                padding-bottom:9px !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            .mcnTextContent,.mcnBoxedTextContentColumn{
-                padding-right:18px !important;
-                padding-left:18px !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            .mcnImageCardLeftImageContent,.mcnImageCardRightImageContent{
-                padding-right:18px !important;
-                padding-bottom:0 !important;
-                padding-left:18px !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            .mcpreview-image-uploader{
-                display:none !important;
-                width:100% !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            h1{
-                font-size:22px !important;
-                line-height:125% !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            h2{
-                font-size:20px !important;
-                line-height:125% !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            h3{
-                font-size:18px !important;
-                line-height:125% !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            h4{
-                font-size:16px !important;
-                line-height:150% !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            .mcnBoxedTextContentContainer .mcnTextContent,.mcnBoxedTextContentContainer .mcnTextContent p{
-                font-size:14px !important;
-                line-height:150% !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            #templatePreheader{
-                display:block !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            #templatePreheader .mcnTextContent,#templatePreheader .mcnTextContent p{
-                font-size:14px !important;
-                line-height:150% !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            #templateHeader .mcnTextContent,#templateHeader .mcnTextContent p{
-                font-size:16px !important;
-                line-height:150% !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            #templateBody .mcnTextContent,#templateBody .mcnTextContent p{
-                font-size:16px !important;
-                line-height:150% !important;
-            }
-    
-    }	@media only screen and (max-width: 480px){
-            #templateFooter .mcnTextContent,#templateFooter .mcnTextContent p{
-                font-size:14px !important;
-                line-height:150% !important;
-            }
-    
-    }</style>
+
         <link rel="icon" href="./assets/CatIcon.jpg" />
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -391,6 +15,7 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
       <link rel="stylesheet" href="styles.css">
       <link rel="stylesheet" href="header.css">
+      <link rel="stylesheet" href="contactUs.styles.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
@@ -406,25 +31,80 @@
     </head>
    
 <body>
-    <div id="mySidenav" class="sidenav">
+    <div id="mySidenav" class="sidenav d-lg-none">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="text-center" >
             <img id="navDoor" src="./assets/bluedoor.png" alt="Blue Door"/>
            </div>
-        <a href="./gallery.html">Gallery</a>
+        <a href="./gallery.html" id="Active">Gallery</a>
         <a href="./customMemories.html">Custom Memories</a>
         <a href="./about.html">About Me</a>
-        <a href="./contactUs.html" id="Active">Newsletter</a>
+        <a href="./contactUs.html">Newsletter</a>
         
     </div>
-    <div class="container-fluid">
-        <div class="row">
+    <div class="container-fluid d-lg-none">
+        <div class="row ">
         <span class="menu" onclick="openNav()">
             <button id="button">
-                <h3 class="d-inline-block">&#9776; <span class="d-none d-lg-inline-block">Menu</span>  </h3> 
+                <h4 class="d-inline-block">&#9776; <span class="d-none d-lg-inline-block">Menu</span>  </h4> 
             </button>
         </span>
        
+    </div></div>
+    <div class="container-fluid d-none d-md-block NavBar ">
+ 
+        <div class="row">
+            <div class="col-3 pt-1">
+                <h4 id="bdag">Blue Door Art Gallery</h4>
+            </div>
+            <div class="col-6">
+                <div class="row ">
+                    <div class="col-5 pt-3 NavLeft">
+                        <div class="row">
+                            <div class="col-6"> 
+                                <a href="gallery.html" class="NavLink">Gallery</a>
+                            </div>
+                            <div class="col-6">
+                                <a href="about.html" class="NavLink">About</a>
+                            </div>
+                        </div>
+                     
+                    </div>
+                    <div class="col-2 d-none d-lg-block">
+                        <a href="index.html" ><img class="NavDoor" src="assets/bluedoor.png" alt="logo"/></a> 
+                     </div>
+                 
+                    <div class="col-5 pt-3 NavRight">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="customMemories.html" class="NavLink">Custom</a>
+                            </div>
+                            <div class="col-6">
+                                <a href="contactUs.html" class="NavLink">Newsletter</a>
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 pt-3">
+                <a href="events.html" class="NavLink">Events</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid Hero">
+        <div class="row p-4">
+            <div class="col-5 text-center">
+                
+            </div>
+            <div class="col-7 headline">
+                <p>Blue Door Art <br/> Gallery</p>
+                <div class="buttonBanner">
+                    <a href="https://bluedoorartgallery.square.site/" target="_blank" ><button class="btn btn-blue px-4 ">SHOP NOW</button></a>
+                </div>
+                
+            </div>
+        </div>
     </div>
   
     </div>
@@ -877,6 +557,27 @@ Megan</span>
     </center>
     </div>
 
+    <div class="container-fluid Footer mt-5">
+        <div class="row">
+            <div class="col-md-4 col-6 text-center pb-3">
+                <form method="POST" action="newsletter.php">
+                    <label class="mb-2">Sign up for my newsletter</label> <br/>
+                    <input type="email" name="email" value="" placeholder="your email" />
+                    <input class="btn btn-blue py-1" type="submit"/>
+                </form>
+            </div>
+            <div class="col-6 col-md-4 text-center">
+                <a href="https://www.facebook.com/BlueDoorArt" target="_blank">
+                    <img class="facebookIconFooter" src="assets/[CITYPNG.COM]Watercolor Square Facebook Fb Logo Icon - 590x532.png" />
+                </a>
+            </div>
+    
+            <div class="col-md-4 pp">
+                <a class="pp" href="https://www.termsfeed.com/live/f3ddcdae-b66a-420d-9804-5191d6d62891">Privacy Policy</a>
+            </div>
+        </div>    
+    </div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

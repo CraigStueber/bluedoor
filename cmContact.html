@@ -29,27 +29,83 @@
     </head>
    
 <body>
-    <div id="mySidenav" class="sidenav">
+    <div id="mySidenav" class="sidenav d-lg-none">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="text-center" >
             <img id="navDoor" src="./assets/bluedoor.png" alt="Blue Door"/>
            </div>
-        <a href="./gallery.html">Gallery</a>
+        <a href="./gallery.html" id="Active">Gallery</a>
         <a href="./customMemories.html">Custom Memories</a>
         <a href="./about.html">About Me</a>
-        <a href="./contactUs.html" >Newsletter</a>
+        <a href="./contactUs.html">Newsletter</a>
         
     </div>
-    <div class="container-fluid">
-        <div class="row">
+    <div class="container-fluid d-lg-none">
+        <div class="row ">
         <span class="menu" onclick="openNav()">
             <button id="button">
-                <h3 class="d-inline-block">&#9776; <span class="d-none d-lg-inline-block">Menu</span>  </h3> 
+                <h4 class="d-inline-block">&#9776; <span class="d-none d-lg-inline-block">Menu</span>  </h4> 
             </button>
         </span>
        
     </div></div>
-    <div class="text-center">
+    
+    <div class="container-fluid d-none d-md-block NavBar ">
+ 
+        <div class="row">
+            <div class="col-3 pt-1">
+                <h4>Blue Door Art Gallery</h4>
+            </div>
+            <div class="col-6">
+                <div class="row ">
+                    <div class="col-5 pt-3 NavLeft">
+                        <div class="row">
+                            <div class="col-6"> 
+                                <a href="gallery.html" class="NavLink">Gallery</a>
+                            </div>
+                            <div class="col-6">
+                                <a href="about.html" class="NavLink">About</a>
+                            </div>
+                        </div>
+                     
+                    </div>
+                    <div class="col-2 d-none d-lg-block">
+                        <a href="index.html" ><img class="NavDoor" src="assets/bluedoor.png" alt="logo"/></a> 
+                     </div>
+                 
+                    <div class="col-5 pt-3 NavRight">
+                        <div class="row">
+                            <div class="col-6">
+                                <a href="customMemories.html" class="NavLink">Custom</a>
+                            </div>
+                            <div class="col-6">
+                                <a href="contactUs.html" class="NavLink">Newsletter</a>
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 pt-3">
+                <a href="events.html" class="NavLink">Events</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid Hero">
+        <div class="row p-4">
+            <div class="col-5 text-center">
+                
+            </div>
+            <div class="col-7 headline">
+                <p>Blue Door Art <br/> Gallery</p>
+               
+                
+            </div>
+        </div>
+    </div>
+  
+    </div>
+    <div class="text-center my-5">
         <h1 class="d-none d-lg-block">Request Info for a Custom Memory</h1>
         <p class="d-block d-lg-none cmSmallHeader">Request Info <br> for a Custom Memory</p>
     </div>
@@ -78,6 +134,27 @@
         </div>
 </div>
 
+</div>
+<div class="container-fluid Footer mt-5">
+    <div class="row">
+        <div class="col-md-4 col-6 text-center pb-3">
+            <form method="POST" action="newsletter.php">
+                <label class="mb-2">Sign up for my newsletter</label> <br/>
+                <input type="email" name="email" value="" placeholder="your email" />
+                <input class="btn btn-blue py-1" type="submit"/>
+            </form>
+        </div>
+        <div class="col-6 col-md-4 text-center">
+            <a href="https://www.facebook.com/BlueDoorArt" target="_blank">
+                <img class="facebookIconFooter" src="assets/[CITYPNG.COM]Watercolor Square Facebook Fb Logo Icon - 590x532.png" />
+            </a>
+        </div>
+
+        <div class="col-md-4 pp">
+            <a class="pp" href="https://www.termsfeed.com/live/f3ddcdae-b66a-420d-9804-5191d6d62891">Privacy Policy</a>
+        </div>
+    </div>    
+</div>
 </div>
 
 
